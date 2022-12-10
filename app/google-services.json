@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "436699232649",
+    "project_id": "digitalsp-324d8",
+    "storage_bucket": "digitalsp-324d8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:436699232649:android:cd4a04e7d8ae3552538958",
+        "android_client_info": {
+          "package_name": "com.example.digitalstudentplanner"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "436699232649-7dt177b8ju5q4p218udneapnv332o66e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA27FYux73pOzlbZb3MhxzrSGxunWmM7fY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "436699232649-7dt177b8ju5q4p218udneapnv332o66e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
