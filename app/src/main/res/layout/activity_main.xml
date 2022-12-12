@@ -21,7 +21,7 @@
         android:layout_marginStart="20dp"
         android:layout_marginEnd="20dp"
         android:layout_marginTop="40dp"
-        android:text="Planner" />
+        android:text="Schedule" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/createPlanner"
@@ -30,7 +30,7 @@
         android:layout_marginStart="20dp"
         android:layout_marginEnd="20dp"
         android:layout_marginTop="40dp"
-        android:text="Create Planner" />
+        android:text="Create a schedule" />
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/registerBtn"
         android:layout_width="match_parent"
@@ -38,7 +38,7 @@
         android:layout_marginStart="20dp"
         android:layout_marginEnd="20dp"
         android:layout_marginTop="40dp"
-        android:text="Register" />
+        android:text="Planner" />
 
 
 
