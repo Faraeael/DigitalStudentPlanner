@@ -15,7 +15,7 @@
         android:src="@drawable/logo" />
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/Planner"
+        android:id="@+id/scheduleBtn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
@@ -24,7 +24,7 @@
         android:text="Schedule" />
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/createPlanner"
+        android:id="@+id/createSchedBtn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
@@ -32,7 +32,7 @@
         android:layout_marginTop="40dp"
         android:text="Create a schedule" />
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/registerBtn"
+        android:id="@+id/PlannerBtn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
