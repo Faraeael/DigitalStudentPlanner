@@ -30,7 +30,7 @@
         android:layout_marginStart="20dp"
         android:layout_marginEnd="20dp"
         android:layout_marginTop="40dp"
-        android:text="Create a schedule" />
+        android:text="PDF VIEWER / OCR" />
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/PlannerBtn"
         android:layout_width="match_parent"
