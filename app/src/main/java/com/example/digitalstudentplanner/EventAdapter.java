@@ -16,6 +16,7 @@ public class EventAdapter extends ArrayAdapter<Event>
 {
     public EventAdapter(@NonNull Context context, List<Event> events)
     {
+
         super(context, 0, events);
     }
 

@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:gravity="center"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context=".pdfocr">
 
     <ImageView
         android:id="@+id/Logo"
@@ -15,32 +15,30 @@
         android:src="@drawable/logo" />
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/scheduleBtn"
+        android:id="@+id/pdfBtn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
         android:layout_marginEnd="20dp"
         android:layout_marginTop="40dp"
-        android:text="Schedule" />
+        android:text="VIEW PDF" />
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/pdfOcrBtn"
+        android:id="@+id/ocrBtn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
         android:layout_marginEnd="20dp"
         android:layout_marginTop="40dp"
-        android:text="PDF VIEWER / OCR / Pomodoro" />
+        android:text="OCR" />
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/PlannerBtn"
+        android:id="@+id/PomodoroBtn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
         android:layout_marginEnd="20dp"
         android:layout_marginTop="40dp"
-        android:text="Planner" />
-
-
+        android:text="Pomodoro" />
 
 </LinearLayout>

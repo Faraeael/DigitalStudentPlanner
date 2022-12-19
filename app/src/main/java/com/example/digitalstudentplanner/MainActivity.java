@@ -10,7 +10,7 @@ import android.widget.Button;
 public class MainActivity extends AppCompatActivity {
 
     Button planner;
-    Button createSched;
+    Button pdfocr;
     Button Sched;
 
     @Override
@@ -19,13 +19,21 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         planner =findViewById(R.id.PlannerBtn);
-        createSched = findViewById(R.id.createSchedBtn);
+        pdfocr = findViewById(R.id.pdfOcrBtn);
         Sched = findViewById(R.id.scheduleBtn);
 
         planner.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(MainActivity.this, CalendarPlanner.class));
+            }
+        });
+
+
+        pdfocr.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MainActivity.this,pdfocr.class));
             }
         });
     }
