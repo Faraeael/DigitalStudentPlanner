@@ -9,7 +9,7 @@ import android.widget.Button;
 
 public class pdfocr extends AppCompatActivity {
 
-    Button OCR, PDF;
+    Button OCR, PDF, Pomodoro;
 
 
     @Override
@@ -19,6 +19,7 @@ public class pdfocr extends AppCompatActivity {
 
         OCR = findViewById(R.id.ocrBtn);
         PDF = findViewById(R.id.pdfBtn);
+        Pomodoro = findViewById(R.id.PomodoroBtn);
 
         PDF.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -31,6 +32,13 @@ public class pdfocr extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(pdfocr.this,ocr.class));
+            }
+        });
+
+        Pomodoro.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(pdfocr.this,pomodoro.class));
             }
         });
     }
