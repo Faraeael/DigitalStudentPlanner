@@ -18,6 +18,20 @@
         android:theme="@style/Theme.DigitalStudentPlanner"
         tools:targetApi="31">
         <activity
+            android:name=".EditSched"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".schedule"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".pdfviewAct"
             android:exported="false">
             <meta-data
