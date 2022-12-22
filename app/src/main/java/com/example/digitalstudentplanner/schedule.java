@@ -27,6 +27,7 @@ public class schedule extends AppCompatActivity implements View.OnClickListener 
     private Button clearBtn;
     private Button saveBtn;
     private Button loadBtn;
+    private Button noteBtn;
 
     private TimetableView timetable;
 
@@ -43,10 +44,18 @@ public class schedule extends AppCompatActivity implements View.OnClickListener 
         clearBtn = findViewById(R.id.clear_btn);
         saveBtn = findViewById(R.id.save_btn);
         loadBtn = findViewById(R.id.load_btn);
+        noteBtn = findViewById(R.id.note_btn);
 
         timetable = findViewById(R.id.timetable);
         timetable.setHeaderHighlight(2);
         initView();
+
+        noteBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(schedule.this,noteactivty.class));
+            }
+        });
     }
 
     private void initView() {
